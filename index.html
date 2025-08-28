@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Symmetric NAT Detection</title>
-</head>
-<body>
-    <h1>Symmetric NAT Detection</h1>
-    <p>This tool helps you determine if your network is using Symmetric NAT.</p>
-    <button>Start!</button>
-    <script>
-        document.querySelector("button").addEventListener("click", function() {
-            console.log("start detecting!");
-        });
-    </script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Symmetric NAT Detection</title>
+    </head>
+    <body>
+        <h1>Symmetric NAT Detection</h1>
+        <p>
+            This tool helps you determine if your network is using Symmetric
+            NAT.
+        </p>
+        <button id="test-1">Test-1</button>
+        <button id="test-2">Test-2</button>
+        <button id="test-3">Test-3</button>
+        <script src="./index.js"></script>
+        <p>
+            Step 1: open the Chrome console, press Ctrl + Shift + J on Windows
+            or Command + Option + J on macOS.
+        </p>
+        <p>
+            Step 2: click the "Test-1" button, wait for 1 minute, copy and save the
+            console output.
+        </p>
+        <p>
+            Step 3: click the "Test-2" button, wait for 1 minute, copy and save the
+            console output.
+        </p>
+        <p>
+            Step 4: click the "Test-3" button, wait for 1 minute, copy and save the
+            console output.
+        </p>
+        <p>
+            Step 5: provide the saved logs to whoever is requesting.
+    </body>
 </html>
